@@ -1,4 +1,3 @@
----
 &#8226; <span style="color:red;"> [IoTDI’23] </span> SolarDetector: Automatic Solar PV Array Identification using Big Satellite Imagery Data.
 
 Qi Li, Sander Schott, and Dong Chen.
