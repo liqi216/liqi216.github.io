@@ -17,12 +17,10 @@
 <span style="color:red;">[BuildSys’20]</span>  SolarTrader: Enabling Distributed Solar Energy Trading in Residential Virtual Power Plants. \
         Yuzhou Feng, Qi Li, Dong Chen and Raju Rangaswami.\
         In Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, November 16-19, 2020, Yokohama, Japan, Acceptance Rate = 24%.
-<span style="color:red;">**Best Paper Award**</span> .<br><br>    
-
+<span style="color:red;">**Best Paper Award**</span> .<br><br>
  <span style="color:red;">[SUSCOM]</span>SolarDiagnostics: Automatic Rooftop Solar Photovoltaic Array Damage Detection. \
 Qi Li,Keyang Yu, Dong Chen. Sustainable Computing: Informatics and Systems
 (SUSCOM), 2020.}.<br><br>
-
  <span style="color:red;">[Sigmetrics’22]</span>Peer to Peer Distributed Solar Energy Trading. \
 Qi Li,Keyang Yu, Dong Chen. \
 In Proceedings of the 7th ACM International Conference SIGMETRICS on Measurement and Evaluation. June 6-10, 2022, Mumbai, India.<br><br>

@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "QI LI"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Qi Li"
 description              : &description "personal description"
