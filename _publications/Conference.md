@@ -10,13 +10,13 @@
         In Proc. of the 20th ACM/IEEE International Conference on Information Processing in Sensor Networks, IPSN’21, May 18–21, 2021, Nashville, TN, USA. Acceptance Rate = 24.76%.<br><br>
 <span style="color:red;">[IGSC’20]</span>  SolarDiagnostics: Automatic Rooftop Solar Photovoltaic Array Damage Detection. \
         Qi Li,Keyang Yu, Dong Chen.\
-        In Proceedings of the Eleventh IEEE International Green and Sustainable Computing Conference, Oct 19-22, 2020, Acceptance Rate = 23\%.<br><br>
+        In Proceedings of the Eleventh IEEE International Green and Sustainable Computing Conference, Oct 19-22, 2020, Acceptance Rate = 23%.<br><br>
 <span style="color:red;">[IPSN’20]</span>  SolarFinder: Automatic Detection of Solar Photovoltaic Arrays. \
         Qi Li, Yuzhou Feng, Yuyang Leng, and Dong Chen\
         In Proceedings of the 19th ACM/IEEE International Conference on Information Processing in Sensor Networks, April 21-24, 2020, Sydney, Australia, Acceptance Rate = 21.77\%..<br><br>
 <span style="color:red;">[BuildSys’20]</span>  SolarTrader: Enabling Distributed Solar Energy Trading in Residential Virtual Power Plants. \
         Yuzhou Feng, Qi Li, Dong Chen and Raju Rangaswami.\
-        In Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, November 16-19, 2020, Yokohama, Japan, Acceptance Rate = 24\%.
+        In Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, November 16-19, 2020, Yokohama, Japan, Acceptance Rate = 24%.
 <span style="color:red;">**Best Paper Award**</span>
       
 
