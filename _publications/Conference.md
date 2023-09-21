@@ -17,6 +17,5 @@
 <span style="color:red;">[BuildSys’20]</span>  SolarTrader: Enabling Distributed Solar Energy Trading in Residential Virtual Power Plants. \
         Yuzhou Feng, Qi Li, Dong Chen and Raju Rangaswami.\
         In Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation, November 16-19, 2020, Yokohama, Japan, Acceptance Rate = 24%.
-<span style="color:red;">**Best Paper Award**</span>
-      
-
+<span style="color:red;">**Best Paper Award**</span>    .<br><br>
+---      
