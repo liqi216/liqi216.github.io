@@ -8,4 +8,5 @@ redirect_from:
   - /about.html
 ---
 
-I am a final 
+I am a final year PhD student in the Cyber-Physical Systems Laboratory[(CPSLab)](https://cps.mines.edu/), department of Computer Science at [Colorado School of Mines](https://cs.mines.edu/). 
+I am fortunate to be advised by Dr. [Dong Chen](https://people.mines.edu/dongchen/. 
