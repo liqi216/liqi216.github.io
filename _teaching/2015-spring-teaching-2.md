@@ -1,20 +1,15 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching Assistant"
 collection: teaching
-type: "Workshop"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
 ---
+Spring’23 : CSCI 575@Mines, Advanced Machine Learning.
+Fall’22: CSCI 442@Mines, Operating System, graduate/undergraduate level.
+Fall’21: COP 4610@FIU, Operating System, undergraduate level.
+Spring’20: COP 2210@FIU,Programming 1.
+Fall’19: COP 4610@FIU, Operating System, undergraduate level.
+Spring’19, COP 5614@FIU, Operating System, graduate level
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
-======
 
-Heading 2
-======
 
-Heading 3
-======
