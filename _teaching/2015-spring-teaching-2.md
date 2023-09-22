@@ -9,7 +9,6 @@ Fall’21: COP 4610@FIU, Operating System, undergraduate level.\
 Spring’20: COP 2210@FIU,Programming 1.\
 Fall’19: COP 4610@FIU, Operating System, undergraduate level.\
 Spring’19, COP 5614@FIU, Operating System, graduate level\<br><br>
-
 As a mentor, I am fortunate to work with the following students: \
 Krithi Gopalabhatla (High School Summer Internship 2023)\
 Carson E Snow (Mines, MURF scholar 2022-2023) \
