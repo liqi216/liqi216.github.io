@@ -1,7 +1,7 @@
 ---
 2023: Rising Star in CPS, University of Virginia.\
 2023: CPS-IoT Week 2023 SIGBED student travel award.\
-2023: Nominated for the Colorado Women’s Day awards, in the College Student Outstanding Young Woman STEM Award category.\
+2023: Nominated for Colorado Women’s Day awards, in College Student Outstanding Young Woman STEM Award category.\
 2022: Mines Graduate Student Government Travel Grant.\
 2022: NSF CNS’22 student Travel Grant.\
 2020: ACM BuildSys’20 Best Paper Award.\
