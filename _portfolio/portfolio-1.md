@@ -1,7 +1,12 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-collection: portfolio
----
-
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+2023: Rising Star in CPS, University of Virginia.\
+2023: CPS-IoT Week 2023 SIGBED student travel award.\
+2023: Nominated for the Colorado Women’s Day awards, in the College Student Outstanding Young Woman STEM Award category.\
+2022: Mines Graduate Student Government Travel Grant.\
+2022: NSF CNS’22 student Travel Grant.\
+2020: ACM BuildSys’20 Best Paper Award.\
+2020: NSF IGSC’20 NSF-funded student participation award.\
+2020: FIU CS Best Research Student Award.\
+2017: National Graduate Scholarship (5%), from Northeastern University, China.\
+2017: The third prize in Cardiovascular OCT vulnerable plaque recognition contest.\
+2016: Outstanding Graduate student award, from  China University of Petroleum in Shandong Province.
