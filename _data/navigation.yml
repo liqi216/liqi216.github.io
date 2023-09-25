@@ -10,13 +10,13 @@ main:
     url: /teaching/    
     
   - title: "Awards"
-    url: /awards/
+    url: /porfolio/
         
  # - title: "Blog Posts"
  #   url: /year-archive/
     
   - title: "Services"
-    url: /services/
+    url: /cv/
     
  # - title: "Guide"
   #  url: /markdown/
