@@ -4,7 +4,7 @@
 2023: Colorado Women’s Day awards Nominee, in College Student Outstanding Young Woman STEM Award category.\
 2022: Mines Graduate Student Government Travel Grant.\
 2022: NSF CNS’22 student Travel Grant.\
-2020: ACM BuildSys’20 Best Paper Award.\
+<span style="color:red;">2020: ACM BuildSys’20 Best Paper Award.\</span>
 2020: NSF IGSC’20 NSF-funded student participation award.\
 2020: FIU CS Best Research Student Award.\
 2017: National Graduate Scholarship (5%), from Northeastern University, China.\

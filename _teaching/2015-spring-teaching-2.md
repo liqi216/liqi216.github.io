@@ -1,6 +1,7 @@
 ---
 title: "Teaching and Mentoring Experience"
 ---
+Fall'2023: Guest Speaker, IoT Security and Privacy.\
 Spring’23 : CSCI 575@Mines, Advanced Machine Learning.\
 Fall’22: CSCI 442@Mines, Operating System, graduate/undergraduate level.\
 Fall’21: COP 4610@FIU, Operating System, undergraduate level.\
