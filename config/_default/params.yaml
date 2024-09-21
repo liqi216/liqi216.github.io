@@ -48,13 +48,13 @@ header:
 #       allow_commercial: false
 
 # Localization
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+# locale:
+#   date_format: 'Jan 2, 2006'
+#   time_format: '3:04 PM'
 
-# Site features
-features:
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
+# # Site features
+# features:
+#   math:
+#     enable: false
+#   privacy_pack:
+#     enable: false
