@@ -45,7 +45,7 @@ profiles:
 interests:
   - Artificial Intelligence
   - Smart homes/buildings 
-  - Cyber Physical Systems
+  - Cyber Physical Energy Systems
   - Security and Privacy
   
 
