@@ -42,11 +42,11 @@ profiles:
     url: https://scholar.google.com/citations?user=rMMhAesAAAAJ&hl=en
 
 
-interests:
-  - Artificial Intelligence
-  - Smart homes/buildings 
-  - Cyber Physical Energy Systems
-  - Security and Privacy
+# interests:
+#  - Artificial Intelligence
+#  - Smart homes/buildings 
+#  - Cyber Physical Energy Systems
+#  - Security and Privacy
   
 
 
