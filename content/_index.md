@@ -24,7 +24,7 @@ sections:
       subtitle: ''
       text: |-
    
-        <div style="font-size: 0.8em;">• <strong>09/24</strong>: VoiceAttack paper got accepted at ACM BuildSys’24!</div>
+        <div style="color: black;font-size: 0.8em;">• <strong>09/24</strong>: VoiceAttack paper got accepted at ACM BuildSys’24!</div>
         <div style="color: black;font-size: 0.8em;">• <strong>08/24</strong>: Qi joined the School of Electrical and Computer Engineering at the University of Oklahoma!</div>
         <div style="color: black;font-size: 0.8em;">• <strong>07/24</strong>: We successfully organized the 2nd IoT security high school summer camp!</div>
         <div style="color: black;font-size: 0.8em;">• <strong>04/24</strong>: Qi’ PhD dissertation was nominated as Dr. Bhakta Rath and Sushama Rath Research Award!</div>
