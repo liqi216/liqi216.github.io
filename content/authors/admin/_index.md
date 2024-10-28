@@ -153,7 +153,7 @@ awards:
 
  <div style="color: black;">
     I am a tenure-track Assistant Professor at the School of Electrical and Computer Engineering, University of Oklahoma. I received my Ph.D from <a href="https://cs.mines.edu/" style="color: inherit; text-decoration: none;">Colorado School of Mines</a> under the supervision of Dr. <a href="https://people.mines.edu/dongchen/" style="color: inherit; text-decoration: none;">Dong Chen</a>. <br><br>
-    My research interests lie at the intersection of Machine Learning, Image Processing, and Experimental Computer Systems. Recently, I have focused on integrating deep learning with image processing techniques to develop computer systems that enhance the energy efficiency of Cyber-Physical Systems (CPS), particularly in the contexts of smart homes, buildings, grids, and cities.
+    My research interests lie at the intersection of Machine Learning, Image Processing, and Cyber-Physical Energy Systems. Recently, I have focused on integrating deep learning with image processing techniques to develop computer systems that enhance the energy efficiency of Cyber-Physical Systems (CPS), particularly in the contexts of smart homes, buildings, grids, and cities.
 </div>
 <div style="color: red;">
     I am actively seeking highly motivated undergraduate and graduate researchers to join my lab! If you’re interested, please feel free to email me!
