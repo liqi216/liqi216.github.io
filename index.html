@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal Website of Qi Li, Assistant Professor at the University of Oklahoma">
     <title>Qi Li - Assistant Professor</title>
+    <!-- Include Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
     <style>
         /* Reset all elements */
         * {
@@ -94,6 +97,12 @@
                 margin-bottom: 2rem;
             }
         }
+
+        /* Icon styling */
+        .section-title i {
+            margin-right: 10px;
+            color: #841617;
+        }
     </style>
 </head>
 
@@ -151,7 +160,7 @@
             </section>
  <br> <!-- Add an empty row here --> 
      <section id="news">
-    <h2>Recent News</h2>
+    <h2 class="section-title"><i class="fas fa-newspaper"></i>Recent News</h2>
     <ul>
         <li><strong>10/24:</strong> “Safeguarding User-Centric Privacy in Smart Homes” got accepted at ACM Transactions on Internet Technology (TOIT).</li>
         <li><strong>09/24:</strong> VoiceAttack paper got accepted at ACM BuildSys’24!</li>
@@ -165,7 +174,7 @@
 </section>
       <br> <!-- Add an empty row here -->       
 <section id="publications">
-    <h2>Selected Publications</h2>
+    <h2 class="section-title"><i class="fas fa-book"></i>Selected Publications</h2>
     <ul>
         <li>
             <strong>[IoTDI’23]</strong> SolarDetector: Automatic Solar PV Array Identification using Big Satellite Imagery Data. 
@@ -180,22 +189,4 @@
             3-5 October 2022, Austin, Texas, USA. Acceptance Rate = 35.25%.
         </li>
         <li>
-            <strong>[IPSN’21]</strong> SolarDetector: Automatic Solar PV Array Identification using Big Satellite Imagery Data. 
-            Qi Li, Sander Schott, and Dong Chen. 
-            In Proc. of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation, 
-            May 9-12, 2023, San Antonio, Texas, part of CPS-IoT Week’23, Acceptance Rate = 30.27%.
-        </li>
-    </ul>
-</section>
-
-            
-        </div>
-    </div>
-
-    <!-- Footer -->
-    <footer>
-        <p>© 2025 Qi Li - University of Oklahoma</p>
-    </footer>
-</body>
-
-</html>
+            <strong>[IPSN’21]</strong> SolarDetector: Automatic Solar PV Array
