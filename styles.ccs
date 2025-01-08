@@ -1,0 +1,103 @@
+/* Reset all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: red; /* Change the default text color to red */
+}
+
+/* Container for side spacing */
+.container {
+    max-width: 1200px; /* Set the maximum width for the content */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add padding on the left and right sides */
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.nav-container a:hover {
+    background-color: #575757;
+}
+
+/* Main section layout */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0; /* Add vertical padding */
+    gap: 2rem;
+    flex-wrap: nowrap; /* Prevent columns from wrapping */
+}
+
+/* Left column styling */
+.left-column {
+    flex: 0 0 450px; /* Increase the left column width to 450px */
+    text-align: center;
+}
+
+/* Prevent wrapping for long text links */
+.left-column a {
+    white-space: nowrap; /* Ensure the text stays on a single line */
+    color: red; /* Change the left column links color to red */
+}
+
+/* Final fix for rectangular image */
+.left-column img {
+    width: 180px; /* Set the desired width */
+    height: auto; /* Maintain the natural aspect ratio */
+    margin-bottom: 1rem; /* Add spacing below the image */
+}
+
+/* Style for Chinese name */
+.chinese-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red; /* Change the Chinese name color to red */
+}
+
+/* Right column styling */
+.right-column {
+    color: red; /* Change the text color in the right column to red */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-column {
+        margin-bottom: 2rem;
+    }
+}

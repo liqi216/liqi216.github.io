@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Website of Qi Li, Assistant Professor at the University of Oklahoma">
+    <title>Qi Li - Assistant Professor</title>
+    <style>
+        /* Reset all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* General body styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #841617; /* University of Oklahoma Crimson Red */
+            color: #fff;
+            padding: 1rem 0; /* Add vertical padding */
+        }
+
+        .nav-container {
+            max-width: 1200px; /* Limit the content width */
+            margin: 0 auto; /* Center the content */
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .nav-container a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem;
+            font-weight: bold; /* Make the text bold */
+        }
+
+        .nav-container a:hover {
+            background-color: #b22d2d; /* Slightly lighter shade for hover effect */
+        }
+
+        /* Main container styling */
+        .main-container {
+            max-width: 1200px; /* Limit the width of the content */
+            margin: 0 auto; /* Center the content horizontally */
+            display: flex;
+            justify-content: space-between;
+            padding: 2rem 0; /* Add vertical padding */
+            gap: 2rem; /* Add space between left and right columns */
+        }
+
+        /* Left column styling */
+        .left-column {
+            flex: 0 0 450px;
+            text-align: center;
+        }
+
+        .left-column img {
+            width: 180px;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        /* Right column styling */
+        .right-column {
+            flex: 1;
+        }
+
+        /* Footer styling */
+        footer {
+            text-align: center;
+            background-color: white; /* Change footer background to white */
+            color: #333; /* Set footer text color to dark gray for visibility */
+            padding: 1rem;
+            border-top: 1px solid #ccc; /* Add a subtle top border for separation */
+        }
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+            .main-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .left-column {
+                margin-bottom: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="publications.html">Publications</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="awards.html">Awards</a>
+            <a href="services.html">Services</a>
+        </div>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main-container">
+        <!-- Left Column (Photo and Title) -->
+        <div class="left-column">
+            <img src="your-photo.jpg" alt="Qi Li's photo">
+            <div class="photo-text">
+                <p class="chinese-name">琪 李</p>
+                <h1>Qi Li</h1>
+                <p>Assistant Professor</p>
+                <p><a href="https://www.ou.edu/coe/ece" target="_blank">School of Electrical and Computer Engineering</a></p>
+                <p>University of Oklahoma</p>
+                <p>Email: <a href="mailto:qili@ou.edu">qili@ou.edu</a></p>
+                <div class="social-links">
+                    <a href="https://scholar.google.com/citations?user=rMMhAesAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+                    <a href="https://github.com/liqi216" target="_blank">GitHub</a> |
+                    <a href="https://www.linkedin.com/in/qili0216/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column (About Me + Recent News + Publications) -->
+        <div class="right-column">
+            <section id="about-me">
+                <h2>About Me</h2>
+                <p>
+                    I am a tenure-track Assistant Professor at the School of Electrical and Computer Engineering, University of Oklahoma. 
+                    I received my Ph.D from <a href="https://cs.mines.edu/" target="_blank">Colorado School of Mines</a> under the supervision of 
+                    Dr. <a href="https://people.mines.edu/dongchen/" target="_blank">Dong Chen</a>.
+                </p>
+                 <br> <!-- Add an empty row here -->
+                <p>
+                    My research interests lie at the intersection of Machine Learning, Image Processing, and Cyber-Physical Energy Systems. Recently, I have focused on integrating deep learning with image processing techniques to develop computer systems that enhance the energy efficiency of Cyber-Physical Systems (CPS), particularly in the contexts of smart homes, buildings, grids, and cities.
+                </p>
+              <br> <!-- Add an empty row here -->
+               <p style="color: #841617; font-weight: bold;">
+    I am actively seeking highly motivated undergraduate and graduate researchers to join my lab! If you’re interested, please feel free to <a href="mailto:qili@ou.edu">email me</a>!
+</p>
+
+            </section>
+ <br> <!-- Add an empty row here --> 
+     <section id="news">
+    <h2>Recent News</h2>
+    <ul>
+        <li><strong>09/24:</strong> VoiceAttack paper got accepted at ACM BuildSys’24!</li>
+        <li><strong>08/24:</strong> Qi joined the School of Electrical and Computer Engineering at the University of Oklahoma!</li>
+        <li><strong>07/24:</strong> We successfully organized the 2nd IoT security high school summer camp!</li>
+        <li><strong>04/24:</strong> Qi’s PhD dissertation was nominated as Dr. Bhakta Rath and Sushama Rath Research Award!</li>
+        <li><strong>04/24:</strong> Qi passed dissertation defense. Thanks to all the people who have helped and supported me through this wonderful Ph.D. journey!</li>
+        <li><strong>04/24:</strong> Image Attack paper got accepted at ACM EWSN’24!</li>
+        <li><strong>01/24:</strong> Qi was selected to participate in the 2024 CRA-WP Grad Cohort for Women.</li>
+    </ul>
+</section>
+      <br> <!-- Add an empty row here -->       
+<section id="publications">
+    <h2>Selected Publications</h2>
+    <ul>
+        <li>
+            <strong>[IoTDI’23]</strong> SolarDetector: Automatic Solar PV Array Identification using Big Satellite Imagery Data. 
+            Qi Li, Sander Schott, and Dong Chen. 
+            In Proc. of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation, 
+            May 9-12, 2023, San Antonio, Texas, part of CPS-IoT Week’23, Acceptance Rate = 30.27%.
+        </li>
+        <li>
+            <strong>[CNS’22]</strong> TrafficSpy: Disaggregating VPN-encrypted IoT Network Traffic for User Privacy Inference. 
+            Qi Li, Keyang Yu, Dong Chen, Mo Sha and Long Cheng. 
+            In Proc. of the 10th IEEE Conference on Communications and Network Security (CNS 2022), 
+            3-5 October 2022, Austin, Texas, USA. Acceptance Rate = 35.25%.
+        </li>
+        <li>
+            <strong>[IPSN’21]</strong> SolarDetector: Automatic Solar PV Array Identification using Big Satellite Imagery Data. 
+            Qi Li, Sander Schott, and Dong Chen. 
+            In Proc. of the 8th ACM/IEEE Conference on Internet of Things Design and Implementation, 
+            May 9-12, 2023, San Antonio, Texas, part of CPS-IoT Week’23, Acceptance Rate = 30.27%.
+        </li>
+    </ul>
+</section>
+
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Qi Li - University of Oklahoma</p>
+    </footer>
+</body>
+
+</html>
