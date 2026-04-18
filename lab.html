@@ -4,21 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OU_CPS Lab</title>
+    <title>OU_CPS Lab - Qi Li</title>
 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             background-color: #f4f4f4;
             color: #333;
         }
 
         nav {
             background-color: #841617;
-            color: #fff;
             padding: 1rem 0;
         }
 
@@ -32,7 +30,6 @@
         .nav-container a {
             color: #fff;
             text-decoration: none;
-            padding: 0.5rem;
             font-weight: bold;
         }
 
@@ -40,49 +37,62 @@
             background-color: #b22d2d;
         }
 
-        .main-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            padding: 2rem 0;
-            gap: 2rem;
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 2rem 1rem;
         }
 
-        .left-column {
-            flex: 0 0 450px;
+        h1 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        /* MEMBERS GRID */
+        .members {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
             text-align: center;
         }
 
-        .left-column img {
-            width: 130px;
-            margin-bottom: 5px;
+        .member {
+            width: 220px;
         }
 
-        .right-column {
-            flex: 1;
+        .member img {
+            width: 180px;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .member p {
+            margin-top: 8px;
         }
 
         footer {
             text-align: center;
             background-color: white;
-            color: #333;
             padding: 1rem;
             border-top: 1px solid #ccc;
-        }
-
-        @media (max-width: 768px) {
-            .main-container {
-                flex-direction: column;
-                align-items: center;
-            }
+            margin-top: 2rem;
         }
     </style>
 </head>
 
 <body>
 
-<!-- Navigation -->
+<!-- NAV -->
 <nav>
     <div class="nav-container">
         <a href="index.html">Home</a>
@@ -95,83 +105,55 @@
     </div>
 </nav>
 
-<!-- Main -->
-<div class="main-container">
+<div class="container">
 
-    <!-- LEFT: Graduate Students with Photos -->
-    <div class="left-column">
+    <!-- TITLE -->
+    <h1>OU_CPS Lab</h1>
 
-        <h2>OU_CPS Lab</h2>
-        <br>
+    <!-- ABOUT -->
+    <h2>About OU_CPS Lab</h2>
+    <p>
+        The OU_CPS Lab focuses on Cyber-Physical Systems, IoT systems, and machine learning.
+        Our research aims to build intelligent, data-driven systems for smart homes,
+        buildings, and energy infrastructure.
+    </p>
 
-        <h3>PhD Student</h3>
-        <br>
-        <img src="images/ye.jpg">
-        <p><b>Ye Zhou</b><br>PhD Student<br>Joined Fall 2025</p>
+    <!-- MEMBERS -->
+    <h2>Members</h2>
 
-        <br><br>
+    <div class="members">
 
-        <h3>Master Students</h3>
-        <br>
+        <div class="member">
+            <img src="images/yezhou.jpg">
+            <p><b>Ye Zhou</b></p>
+            <p>PhD Student</p>
+            <p>Joined Fall 2025</p>
+        </div>
 
-        <img src="images/anany.jpg">
-        <p><b>Anany Pratap Gupta</b><br>Master Student<br>Joined Spring 2025</p>
+        <div class="member">
+            <img src="images/anany.jpg">
+            <p><b>Anany Pratap Gupta</b></p>
+            <p>Master Student</p>
+            <p>Joined Spring 2025</p>
+        </div>
 
-        <br>
-
-        <img src="images/luke.png">
-        <p><b>Luke Wittrock</b><br>Master Student<br>Joined Spring 2025</p>
-
-    </div>
-
-    <!-- RIGHT: Lab Info + Undergrads -->
-    <div class="right-column">
-
-        <section>
-            <h2>About OU_CPS Lab</h2>
-            <p>
-                The OU_CPS Lab focuses on Cyber-Physical Systems, IoT systems, and machine learning.
-                Our research aims to build intelligent, data-driven systems for smart homes, buildings,
-                and energy infrastructure.
-            </p>
-        </section>
-
-        <br>
-
-        <section>
-            <h2>Research Areas</h2>
-            <ul>
-                <li>Cyber-Physical Systems</li>
-                <li>IoT Systems and Privacy</li>
-                <li>Machine Learning for Sensing and Control</li>
-                <li>Smart Homes and Energy Systems</li>
-            </ul>
-        </section>
-
-        <br>
-
-        <section>
-            <h2>Selected Projects</h2>
-            <ul>
-                <li><b>Gen-HVAC:</b> Learning-based HVAC control across buildings</li>
-                <li><b>IoT Privacy:</b> Inferring device activity from encrypted traffic</li>
-                <li><b>Solar Detection:</b> Satellite-based energy system analysis</li>
-            </ul>
-        </section>
-
-        <br>
-
-        <section>
-            <h2>Undergraduate Students</h2>
-            <ul>
-                <li>Kotchi</li>
-                <li>Jean-Yves</li>
-                <li>Mohammed Dallaly</li>
-                <li>Darren Li</li>
-            </ul>
-        </section>
+        <div class="member">
+            <img src="images/luke.jpg">
+            <p><b>Luke Wittrock</b></p>
+            <p>Master Student</p>
+            <p>Joined Spring 2025</p>
+        </div>
 
     </div>
+
+    <!-- UNDERGRAD -->
+    <h2>Undergraduate Students</h2>
+    <ul>
+        <li>Kotchi</li>
+        <li>Jean-Yves</li>
+        <li>Mohammed Dallaly</li>
+        <li>Darren Li</li>
+    </ul>
 
 </div>
 
