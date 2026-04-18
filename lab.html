@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Li Lab | Qi Li</title>
+  <style>
+    :root {
+      --accent: #7f1734;
+      --accent-dark: #5f1026;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --bg: #ffffff;
+      --panel: #f8fafc;
+      --border: #e5e7eb;
+      --maxw: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.65;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      width: min(var(--maxw), 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      background: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 24px;
+      min-height: 72px;
+    }
+
+    .brand {
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--text);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 22px;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: var(--text);
+      font-weight: 500;
+    }
+
+    nav a.active {
+      color: var(--accent);
+    }
+
+    .hero {
+      padding: 56px 0 28px;
+      background: linear-gradient(to bottom, #fcfcfd, #ffffff);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 28px;
+      align-items: start;
+    }
+
+    .hero h1 {
+      margin: 0 0 8px;
+      font-size: 2.4rem;
+      line-height: 1.15;
+    }
+
+    .hero .subtitle {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 18px;
+    }
+
+    .hero p {
+      margin: 0 0 16px;
+    }
+
+    .hero-card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    .hero-card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    .badge-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .badge {
+      border: 1px solid var(--border);
+      background: #fff;
+      color: var(--text);
+      padding: 8px 12px;
+      border-radius: 999px;
+      font-size: 0.92rem;
+    }
+
+    section {
+      padding: 38px 0;
+    }
+
+    h2 {
+      font-size: 1.55rem;
+      margin: 0 0 18px;
+    }
+
+    .section-intro {
+      color: var(--muted);
+      margin-top: -6px;
+      margin-bottom: 22px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.06rem;
+    }
+
+    .student-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .student-card {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      background: #fff;
+    }
+
+    .student-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 4px;
+    }
+
+    .student-role {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .student-topic {
+      margin: 0;
+    }
+
+    .project-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .project-item {
+      border-left: 4px solid var(--accent);
+      background: var(--panel);
+      padding: 16px 18px;
+      border-radius: 10px;
+    }
+
+    .project-item h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+    }
+
+    .opportunity {
+      background: #fff8f8;
+      border: 1px solid #f0d5da;
+      border-radius: 18px;
+      padding: 22px;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px 0 40px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid,
+      .cards,
+      .student-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .topbar {
+        align-items: flex-start;
+        padding: 14px 0;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container topbar">
+      <div class="brand">Qi Li</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#news">News</a></li>
+          <li><a href="index.html#publications">Publications</a></li>
+          <li><a href="index.html#teaching">Teaching</a></li>
+          <li><a href="index.html#awards">Awards</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="lab.html" class="active">Lab</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <h1>Li Lab</h1>
+        <div class="subtitle">Cyber-Physical Systems, IoT, Machine Learning, and Privacy</div>
+        <p>
+          We build data-driven systems for smart homes, buildings, energy systems, and connected environments.
+          Our work combines machine learning with sensing, networking, and system design to improve efficiency,
+          resilience, and privacy in real-world cyber-physical systems.
+        </p>
+        <div class="badge-row">
+          <span class="badge">CPS</span>
+          <span class="badge">IoT</span>
+          <span class="badge">ML for Systems</span>
+          <span class="badge">Privacy & Security</span>
+          <span class="badge">Energy Systems</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h3>Join the Lab</h3>
+        <p>
+          We are looking for motivated undergraduate, MS, and PhD students interested in cyber-physical systems,
+          IoT, applied machine learning, sensing, and privacy.
+        </p>
+        <p>
+          Please email <a href="mailto:qili@ou.edu">qili@ou.edu</a> with your CV, transcript, and a short note
+          about your research interests.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Research Areas</h2>
+      <p class="section-intro">
+        Our group studies system and learning problems motivated by real deployment settings.
+      </p>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Cyber-Physical Systems</h3>
+          <p>Learning-enabled control, smart homes and buildings, sensing systems, and real-world deployment.</p>
+        </div>
+        <div class="card">
+          <h3>IoT Privacy and Security</h3>
+          <p>Traffic analysis, user privacy inference, device activity modeling, and privacy-aware system design.</p>
+        </div>
+        <div class="card">
+          <h3>Machine Learning for Energy</h3>
+          <p>Data-driven methods for buildings, grids, distributed energy systems, and large-scale sensing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Current Students</h2>
+      <p class="section-intro">
+        Update names, roles, and topics below as your group grows.
+      </p>
+
+      <div class="student-grid">
+        <div class="student-card">
+          <div class="student-name">Anany Pratap Gupta</div>
+          <div class="student-role">PhD Student</div>
+          <p class="student-topic">Research: energy systems, cyber-physical systems, and machine learning for control.</p>
+        </div>
+
+        <div class="student-card">
+          <div class="student-name">Student Name</div>
+          <div class="student-role">MS / PhD Student</div>
+          <p class="student-topic">Research: add topic here.</p>
+        </div>
+
+        <div class="student-card">
+          <div class="student-name">Student Name</div>
+          <div class="student-role">Undergraduate Researcher</div>
+          <p class="student-topic">Research: add topic here.</p>
+        </div>
+
+        <div class="student-card">
+          <div class="student-name">Student Name</div>
+          <div class="student-role">MS Student</div>
+          <p class="student-topic">Research: add topic here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Selected Projects</h2>
+      <div class="project-list">
+        <div class="project-item">
+          <h3>Learning-Based Building Control</h3>
+          <p>
+            Data-driven HVAC control and generalizable policies for buildings under varying climates, system settings,
+            and user comfort preferences.
+          </p>
+        </div>
+
+        <div class="project-item">
+          <h3>Privacy in Smart Homes</h3>
+          <p>
+            Inferring device-level activity from encrypted aggregate traffic and studying privacy risks in connected homes.
+          </p>
+        </div>
+
+        <div class="project-item">
+          <h3>Energy and Sensing at Scale</h3>
+          <p>
+            Computer vision and machine learning methods for rooftop solar detection, energy infrastructure analysis,
+            and system-level monitoring.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Openings</h2>
+      <div class="opportunity">
+        <p>
+          I am happy to talk with students who are interested in research in CPS, IoT, ML systems, privacy,
+          and energy-related applications. Students with experience in programming, ML, optimization,
+          embedded systems, networking, or data analysis are especially welcome.
+        </p>
+        <p>
+          Prospective students should send an email with:
+        </p>
+        <ul>
+          <li>CV</li>
+          <li>Unofficial transcript</li>
+          <li>A short description of research interests</li>
+          <li>Optional: code, paper, or project links</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <h2>Alumni</h2>
+      <p class="section-intro">
+        Add alumni here with current position or destination.
+      </p>
+      <div class="card">
+        <p>No alumni listed yet.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      © 2026 Qi Li · University of Oklahoma
+    </div>
+  </footer>
+</body>
+</html>
